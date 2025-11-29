@@ -1,21 +1,22 @@
 {
     "layer": "bottom",
     "position": "top",
-    "height": 30,
+    "height": 27, 
     "spacing": 10,
     "modules-left": [
         "hyprland/workspaces",
-        "hyprland/window",
-        "hyprland/mode"
+        "hyprland/window"
     ],
     "modules-center": [
         "clock"
     ],
     "modules-right": [
+        
         "hyprland/language", 
         "pulseaudio",
         "network",
-        "tray"
+        "tray",
+        "custom/weather"
     ],
     "hyprland/mode": {
         "format": " {}"
@@ -58,5 +59,10 @@
     "format": "{}",
     "format-en": "en",
     "format-es" : "es"
+    },
+
+    "custom/weather": {
+    "exec": "~/.config/waybar/weather.sh",
+    "format": "{text}"
     }
 }

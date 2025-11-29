@@ -20,7 +20,7 @@ window#waybar {
     padding: 0px 5px 0px 5px;
     border: 1px solid #434343;
     border-radius: 7px;
-    transition: all 550ms ease-in-out;
+    transition: all 450ms ease-in-out;
 }
 
 #workspaces button.active {
@@ -29,14 +29,17 @@ window#waybar {
     min-width: 30px;
 }
 
-#language {
-    margin-bottom: 3px;
+#custom-weather {
+    margin-right: 15px;
 }
 
-#pulseaudio, #language, #network {
+#language {
+    margin-bottom: 5px; 
+}
+
+#pulseaudio, #network {
     /*border: 1px solid #434343; */ 
     padding: 0px 5px 0px 5px;
-    border-radius: 7px;
     min-width: 25px;
 }
 
