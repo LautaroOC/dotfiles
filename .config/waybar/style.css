@@ -1,7 +1,8 @@
 * {
     border: none;
     border-radius: 0;
-    font-family:   "JetBrainsMono Nerd Font Propo";
+    /*font-family:   "JetBrainsMono Nerd Font Propo"; */
+    font-family: Kosugi;
     font-size:     15px;
 
     min-height: 0;
@@ -11,12 +12,13 @@
 
 window#waybar {
     color:      rgba(217, 216, 216, 1);
-    background-color: alpha(#121212, 0.6); 
+    background-color: alpha(#121212, 0.6);  
+/*    background-color: transparent; */
 }
 
 #workspaces button {
     margin: 0px 0px 0px 2px;
-    color: white;
+    color: white; 
     padding: 0px 5px 0px 5px;
     border: 1px solid #434343;
     border-radius: 7px;
@@ -24,7 +26,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background: white;
+    background: #e6e1d9;
     color: black;
     min-width: 30px;
 }
@@ -34,7 +36,9 @@ window#waybar {
 }
 
 #language {
-    margin-bottom: 5px; 
+/*    margin-bottom: 5px;  */
+      padding-bottom: 3.5px;
+
 }
 
 #pulseaudio, #network {
